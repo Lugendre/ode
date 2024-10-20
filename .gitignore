@@ -1,0 +1,6 @@
+/target
+/**/target
+Cargo.lock
+*.txt
+*.png
+/.idea

@@ -1,0 +1,14 @@
+[package]
+name = "kepler"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+anyhow = "1.0.89"
+eom = { git = "https://github.com/Lugendre/eom.git" }
+itertools = "0.13.0"
+ndarray = "0.16.1"
+ndarray-linalg = { git = "https://github.com/Lugendre/ndarray-linalg.git" , features = ["openblas-static"] }
+num = "0.4.3"
+plotters = "0.3.7"
+thiserror = "1.0.64"
